@@ -1,0 +1,10 @@
+{
+  "clientId": "1156699732765310976",
+  "port": 3020,
+  "showButtons": true,
+  "showTimeRemaining": true,
+  "showArtwork": true,
+  "showSmallIcon": false,
+  "idleTimeoutSeconds": 25,
+  "defaultArtwork": "https://cdn.discordapp.com/app-icons/1156699732765310976/0769c6999504c3379497999d4c90ef86.png"
+}

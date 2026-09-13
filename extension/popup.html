@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SoundCloud Discord RPC</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo-area">
+      <span class="logo-icon">☁️</span>
+      <span class="logo-text">SoundCloud RPC</span>
+    </div>
+    <span id="server-badge" class="badge badge-offline">Server Offline</span>
+  </div>
+
+  <div class="content">
+    <div class="status-row">
+      <span class="label">Discord Status:</span>
+      <span id="discord-status" class="value">Checking...</span>
+    </div>
+
+    <div class="track-card" id="track-card">
+      <div class="artwork-container">
+        <img id="track-art" src="icons/icon128.png" alt="Artwork" />
+      </div>
+      <div class="track-details">
+        <div id="track-title" class="track-title">No track playing</div>
+        <div id="track-artist" class="track-artist">Play music on SoundCloud</div>
+        <div id="track-time" class="track-time">--:-- / --:--</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button id="btn-dashboard" class="btn btn-secondary">Dashboard</button>
+    <button id="btn-refresh" class="btn btn-primary">Refresh</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
