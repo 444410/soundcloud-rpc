@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         SoundCloud Discord Rich Presence
-// @namespace    https://soundcloud.com/
-// @version      1.0.2
-// @description  SoundCloud Discord RPC
-// @author       Antigravity
-// @match        https://soundcloud.com/*
-// @grant        GM_xmlhttpRequest
-// @connect      127.0.0.1
-// @run-at       document-idle
-// ==/UserScript==
 
 (() => {
   'use strict';
